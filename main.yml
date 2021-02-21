@@ -32,7 +32,7 @@
     import_role:
       name: logstash 
 
-- hosts: remote
+- hosts: all
   tasks:
 
   - name: Disable SELinux
